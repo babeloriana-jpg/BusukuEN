@@ -296,7 +296,6 @@ p, .section__content {
   text-wrap: pretty;
 }
 
-/* Polecenie dla Cline: Dodaj to do sekcji stylów lub na końcu pliku */
 @media (min-width: 769px) {
   #nauczyciel .section__title {
     white-space: nowrap;
