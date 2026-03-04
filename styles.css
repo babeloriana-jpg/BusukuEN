@@ -80,6 +80,10 @@ p {
   font-size: 0.9rem;
   letter-spacing: 0.4em;
   opacity: 0.9;
+  display: block;      
+  width: 100%;         
+  text-align: center;  
+
 }
 
 .hero__actions {
