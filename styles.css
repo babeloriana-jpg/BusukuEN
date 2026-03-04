@@ -309,3 +309,29 @@ p, .section__content {
     display: block;
     width: 100%;
 }
+
+.language-switch {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 100;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  transition: var(--transition);
+  border-bottom: 1px solid transparent;
+}
+.language-switch:hover {
+border-bottom: 1px solid #ffffff;
+opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+.language-switch {
+top: 15px;
+right: 15px;
+}
+}
